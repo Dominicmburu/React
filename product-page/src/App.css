@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.shoe-type img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.shoe-details {
+  margin-left: 30px;
+}
+
+.shoe-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.shoe-details p {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.shoe-details .price {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.buy-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}
+
+.color {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 5px; */
+}
+
+.color .pick {
+  width: 30px; 
+  height: 30px;
+  border-radius: 50%;
+}
+
+.size-container {
+  margin-top: 20px;
+}
+
+.size-label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.sizes {
+  display: flex;
+  gap: 10px;
+}
+
+.size-box {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+
+.size-box:hover {
+  background-color: #e0e0e0;
+}
+
